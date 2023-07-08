@@ -1,0 +1,31 @@
+
+body{
+  background-color: rgb(144, 199, 247);
+}
+
+h1{
+  color: coral;
+  background-color: aquamarine;
+}
+#show_sketch{
+  float:right;
+}
+
+canvas{
+  border:5px solid peachpuff;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 50px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example{
+  from {box-shadow: 1px 1px 38px violet;}
+  to {box-shadow: 1px 1px 38px rgb(211, 253, 239);}
+}
+
+p{
+  padding-top: 10px;
+  font-size: 25px;
+}
